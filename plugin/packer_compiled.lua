@@ -69,6 +69,21 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  everforest = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -83,6 +98,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
+  ["tokyonight-vim"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/tokyonight-vim",
+    url = "https://github.com/ghifarit53/tokyonight-vim"
+  },
+  ["vim-monokai"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/vim-monokai",
+    url = "https://github.com/sickill/vim-monokai"
   }
 }
 
