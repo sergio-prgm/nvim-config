@@ -46,7 +46,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
   -- Colorschemes
-  use "morhetz/gruvbox" 
+  use "morhetz/gruvbox"
   use "sainnhe/everforest"
   use "joshdick/onedark.vim"
   use "sainnhe/sonokai"
@@ -81,7 +81,8 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow"
-  -- use "nvim-treesitter/playground" -- see treesitter stuff
+  use "numToStr/Comment.nvim" -- easy comments
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- comments based on context
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -7,7 +7,7 @@ if not status_ok then
   return
 end
 
-  -- "morhetz/gruvbox" 
+  -- "morhetz/gruvbox"
   -- "sainnhe/everforest"
   -- "joshdick/onedark.vim"
   -- "sainnhe/sonokai"
