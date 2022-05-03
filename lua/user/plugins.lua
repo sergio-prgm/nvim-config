@@ -97,6 +97,12 @@ return packer.startup(function(use)
   use "moll/vim-bbye" -- delete buffers and stuff
   use "nvim-lualine/lualine.nvim"
 
+  -- toggleterm
+  use "akinsho/toggleterm.nvim" -- toggle terminal and other stuff
+
+  -- which-key
+  use "folke/which-key.nvim" -- shows key combinations based on which key was pressed
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

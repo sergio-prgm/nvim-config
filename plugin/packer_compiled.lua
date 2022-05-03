@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["tokyonight-vim"] = {
     loaded = true,
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/tokyonight-vim",
@@ -233,6 +238,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/vim-monokai",
     url = "https://github.com/sickill/vim-monokai"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
