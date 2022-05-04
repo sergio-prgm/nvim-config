@@ -48,10 +48,12 @@ return packer.startup(function(use)
   -- Colorschemes
   use "morhetz/gruvbox"
   use "sainnhe/everforest"
-  use "joshdick/onedark.vim"
+  -- use "joshdick/onedark.vim" -- Older version of the color scheme
   use "sainnhe/sonokai"
   use "sickill/vim-monokai"
   use "ghifarit53/tokyonight-vim"
+  -- use "LunarVim/onedarker.nvim"
+  use "navarasu/onedark.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -70,7 +72,7 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
-  -- use "jose-elias-alvarez/null-ls.nvim"
+  use "jose-elias-alvarez/null-ls.nvim"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

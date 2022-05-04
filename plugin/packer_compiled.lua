@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -184,10 +189,10 @@ _G.packer_plugins = {
     path = "/home/sergio/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["onedark.vim"] = {
+  ["onedark.nvim"] = {
     loaded = true,
-    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
+    path = "/home/sergio/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
